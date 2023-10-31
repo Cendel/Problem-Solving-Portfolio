@@ -9,7 +9,6 @@ for char in range(ord("a"), ord("y")+1):
 grid = [["{" if x%2==0 else "}" for x in range(38)] for i in range(25)]
 
 
-
 print(instructions)
 
 
@@ -37,10 +36,6 @@ for i in instructions:
                 grid[rows[r]-b-j][y+1] = " " if do == "MOW" else "}" if do == "PLANT" else " " if do=="reverse" and grid[rows[r] - b - j][y+1] == "}" else "}"
                 grid[rows[r]+b+j][y] =  " " if do=="MOW" else "{" if do=="PLANT"  else " " if do=="reverse" and grid[rows[r] + b + j][y] =="{"  else "{"
                 grid[rows[r]+b+j][y+1] = " " if do == "MOW" else "}" if do == "PLANT" else " " if do=="reverse" and grid[rows[r] + b + j][y+1] == "}" else "}"
-
-
-
-
 
 
 
