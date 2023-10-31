@@ -1,6 +1,7 @@
 grid1 = ["~ * ~", "~ ~ ~", "~ * ~"]
 target = ["* * *", "* ~ *", "* * *"]
 player_buttons = "884"
+
 # after the players entered a series of numbers as in above, there is always a button left to complete the
 # puzzle. This program helps to find this last button.
 
