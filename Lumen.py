@@ -54,6 +54,7 @@ for i in range(n):
         if room_map[i][j] != "X":
             candle_count += 1
 print()
+
 # visualize the processed grid:
 for i in room_map:
     print("".join(i))
