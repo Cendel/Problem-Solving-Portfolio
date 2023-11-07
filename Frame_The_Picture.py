@@ -7,7 +7,6 @@ grid_w = w + 2 + (len(frame) * 2)
 
 grid = [[" " for x in range(grid_w)] for _ in range(grid_h)]
 
-
 for i in range(len(frame)):
     for j in range(grid_h):
         if grid[j][i] == " ":
