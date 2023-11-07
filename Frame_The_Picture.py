@@ -24,6 +24,5 @@ for i in range(len(picture)):
     for j in range(len(picture[i])):
         grid[start + i][start + j] = picture[i][j]
 
-
 for i in grid:
     print("".join(i))
