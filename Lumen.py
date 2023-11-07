@@ -22,7 +22,7 @@ room_map = [
 n = 15
 l = 3
 
-# visualize the original grid:
+# visualizes the original grid:
 for i in room_map:
     print("".join(i))
 
@@ -55,7 +55,7 @@ for i in range(n):
             candle_count += 1
 print()
 
-# visualize the processed grid:
+# visualizes the processed grid:
 for i in room_map:
     print("".join(i))
 
