@@ -1,4 +1,4 @@
-R, L, U, D = 1, 1, 1, 1
+R = L = U = D = 1
 moves = "DRULUR"
 v = "L"
 
@@ -23,4 +23,3 @@ for i in moves:
     R, L, U, D = _R(R, L, U, D, move=i)
 
 print(globals().get(v))
-
