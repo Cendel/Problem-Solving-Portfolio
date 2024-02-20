@@ -61,6 +61,18 @@ island_groups = []
 sea_sets = []
 
 
+def check_sea(grid, a, b, sea_set):
+    if b < n - 1 and grid[a][b + 1] == "~":
+        sea_set.add((a, b + 1))
+    if a < n - 1 and grid[a + 1][b] == "~":
+        sea_set.add((a + 1, b))
+    if b > 0 and grid[a][b - 1] == "~":
+        sea_set.add((a, b - 1))
+    if a > 0 and grid[a - 1][b] == "~":
+        sea_set.add((a - 1, b))
+    return sea_set
+
+
 def check_for_island(grid, a, b, island_group, sea_set):
     island_group.append([a, b])
     while True:
@@ -79,18 +91,6 @@ def check_for_island(grid, a, b, island_group, sea_set):
             check_for_island(grid, a - 1, b, island_group, sea_set)
         else:
             break
-
-
-def check_sea(grid, a, b, sea_set):
-    if b < n - 1 and grid[a][b + 1] == "~":
-        sea_set.add((a, b + 1))
-    if a < n - 1 and grid[a + 1][b] == "~":
-        sea_set.add((a + 1, b))
-    if b > 0 and grid[a][b - 1] == "~":
-        sea_set.add((a, b - 1))
-    if a > 0 and grid[a - 1][b] == "~":
-        sea_set.add((a - 1, b))
-    return sea_set
 
 
 for i in range(n):

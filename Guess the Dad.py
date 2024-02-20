@@ -23,12 +23,11 @@ child = parser(child)
 f_lst = [parser(lst) for lst in f_lst]
 
 
-
 for i in f_lst:
     count = 0
     for j in range(len(i[1])):
         if i[1][j][0] in child[1][j] or i[1][j][1] in child[1][j]:
-            count+=1
+            count += 1
     if count == len(i[1]):
         print(f"{i[0]}, you are the father!")
 
@@ -36,5 +35,3 @@ for i in f_lst:
 for i in f_lst:
     if all(any(val in child[1][j] for val in i[1][j]) for j in range(len(i[1]))):
         print(f"{i[0]}, you are the father!")
-
-
