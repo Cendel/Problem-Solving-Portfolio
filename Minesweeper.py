@@ -1,3 +1,7 @@
+# Question: https://www.codingame.com/ide/puzzle/reverse-minesweeper
+
+# Completed!
+
 grid = [
     [".", ".", ".", ".", ".", ".", ".", ".", ".", "."],
     [".", "x", ".", ".", ".", "x", ".", ".", ".", "x"],

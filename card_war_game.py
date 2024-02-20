@@ -1,3 +1,7 @@
+# Question: https://www.codingame.com/ide/puzzle/winamax-battle
+
+# Completed!
+
 import sys
 import math
 
@@ -7,8 +11,8 @@ a special set of rules for tie scenarios. The game continues until one of the pl
 and the program then determines the winner or declares a tie (PAT) based on the game's outcome."""
 
 
-p1=["10D", "9S", "8D", "KH", "7D", "5H", "6S"]
-p2= ["10H", "7H", "5C", "QC", "2C", "4H", "6D"]
+p1 = ["10D", "9S", "8D", "KH", "7D", "5H", "6S"]
+p2 = ["10H", "7H", "5C", "QC", "2C", "4H", "6D"]
 reserved = []
 round = 0
 
@@ -25,8 +29,9 @@ def deal_cards(p1cards, p2cards, p1, p2):
         p2.remove(card)
     return a
 
+
 def num(symbol):
-    J, Q, K, A = 11,12,13,14
+    J, Q, K, A = 11, 12, 13, 14
     if symbol == "J":
         return J
     if symbol == "Q":
@@ -78,11 +83,3 @@ elif p1:
     print(f"1 {round}")
 elif p2:
     print(f"2 {round}")
-
-
-
-
-
-
-
-

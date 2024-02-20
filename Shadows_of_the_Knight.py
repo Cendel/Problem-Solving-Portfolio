@@ -1,3 +1,7 @@
+# Question: https://www.codingame.com/ide/puzzle/shadows-of-the-knight-episode-1
+
+# Completed!
+
 import math
 [w, h], low, left = [int(i) for i in input().split()], 0, 0
 n = int(input())

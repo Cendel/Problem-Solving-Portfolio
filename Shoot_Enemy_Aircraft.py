@@ -1,3 +1,7 @@
+# Question: https://www.codingame.com/ide/puzzle/shoot-enemy-aircraft
+
+# Completed!
+
 grid1 = [
     "....................",
     ".>..................",

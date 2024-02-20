@@ -1,5 +1,7 @@
 # https://www.codingame.com/ide/puzzle/lumen
 
+# Completed!
+
 room_map = [
     ["X", "X", "X", "X", "X", "X", "X", "X", "X", "X", "X", "X", "3", "X", "X"],
     ["X", "X", "X", "X", "X", "X", "X", "X", "X", "X", "X", "X", "3", "X", "X"],

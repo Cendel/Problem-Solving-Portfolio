@@ -1,3 +1,7 @@
+# Question: https://www.codingame.com/ide/puzzle/rock-paper-scissors-lizard-spock
+
+# Completed!
+
 n = 8
 players = [
     ["28", "R", []],

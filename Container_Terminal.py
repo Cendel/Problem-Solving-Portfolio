@@ -1,3 +1,7 @@
+# Question: https://www.codingame.com/ide/puzzle/container-terminal
+
+# Completed!
+
 lst = [
     ["A"],
     [

@@ -1,3 +1,7 @@
+# Question: https://www.codingame.com/ide/puzzle/rectangle-partition
+
+# Completed!
+
 ys = []
 w, h, count_x, count_y = 10, 5, 5, 3
 xs = [2, 4, 5, 7, 8]
@@ -21,7 +25,7 @@ for i in range(len(ys)):
         for j in range(i + 1, len(ys)):
             yys.append(abs(ys[i] - ys[j]))
 
-count= 0
+count = 0
 for x in xxs:
     count += yys.count(x)
 

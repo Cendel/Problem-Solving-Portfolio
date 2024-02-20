@@ -1,7 +1,13 @@
+# Question: https://www.codingame.com/ide/puzzle/card-counting-when-easily-distracted
+
+# Completed!
+
 import sys
 
+
 def calculate_percentage(stream, threshold):
-    char_list = ["A", "2", "3", "4", "5", "6", "7", "8", "9", "T", "J", "Q", "K"]
+    char_list = ["A", "2", "3", "4", "5", "6",
+                 "7", "8", "9", "T", "J", "Q", "K"]
 
     def get_value(symbol):
         if symbol in ["J", "Q", "K", "T"]:
@@ -17,6 +23,7 @@ def calculate_percentage(stream, threshold):
 
     percentage = round(lower / len(deck) * 100, 2)
     return f"{percentage}%"
+
 
 if __name__ == "__main__":
     try:

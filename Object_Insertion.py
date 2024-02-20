@@ -1,3 +1,7 @@
+# Question: https://www.codingame.com/ide/puzzle/object-insertion
+
+# Completed!
+
 a, b = 3, 2
 shape = [".*", "**", ".*"]
 
@@ -42,7 +46,7 @@ for i in range(c - a + 1):
         if found:
             count += 1
 print(count)
-output_grid= []
+output_grid = []
 if count == 1:
     lst = []
     for i in grid:

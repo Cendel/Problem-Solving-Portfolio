@@ -1,3 +1,7 @@
+# Question: https://www.codingame.com/ide/puzzle/sudoku-validator
+
+# Completed!
+
 sudoku = [
     [4, 3, 5, 2, 6, 9, 7, 8, 1],
     [6, 8, 2, 5, 7, 1, 4, 9, 3],

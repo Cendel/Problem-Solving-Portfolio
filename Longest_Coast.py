@@ -1,3 +1,7 @@
+# Question: https://www.codingame.com/ide/puzzle/longest-coast
+
+# Completed!
+
 n = 6
 grid = [
     "##~##~#~####~~~#~#~~~##~~##~~~#~~##~####~#~~~~~~~~",

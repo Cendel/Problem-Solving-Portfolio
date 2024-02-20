@@ -1,3 +1,7 @@
+# Question: https://www.codingame.com/ide/puzzle/ghost-legs
+
+# Completed!
+
 w, h = 76, 23
 lines = [
     "~  !  @  #  $  %  ^  &  *  (  )  +  `  1  2  3  4  5  6  7  8  9  0  =  \\  /",

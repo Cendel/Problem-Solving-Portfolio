@@ -1,3 +1,7 @@
+# Question: https://www.codingame.com/training/community/folding-paper
+
+# Completed!
+
 R = L = U = D = 1
 moves = "DRULUR"
 v = "L"

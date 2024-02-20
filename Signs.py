@@ -1,3 +1,7 @@
+# Question: https://www.codingame.com/ide/puzzle/create-turn-here-signs
+
+# Completed!
+
 command = ["left", "3", "11", "7", "7", "3"]
 
 command2 = ["right", "3", "9", "8", "6", "2"]
@@ -18,7 +22,7 @@ if direction == "right":
 else:
     template = f"{('<'*thickness+' '*spacing)*amount}".rstrip()
     for i in range(height // 2 + 1):
-        print(" " * (height//2 -i) * indent + template, end="")
+        print(" " * (height//2 - i) * indent + template, end="")
         print()
     for i in range(height // 2):
         print(" " * (i+1) * indent + template, end="")

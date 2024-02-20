@@ -1,3 +1,7 @@
+# Question: https://www.codingame.com/ide/puzzle/merlins-magic-square
+
+# Completed!
+
 grid1 = ["~ * ~", "~ ~ ~", "~ * ~"]
 target = ["* * *", "* ~ *", "* * *"]
 player_buttons = "884"
@@ -38,9 +42,10 @@ def button_action(number, grid):
 
     return result
 
-for i in player_buttons:
-    grid1=button_action(int(i), grid1)
 
-for i in range(1,10):
+for i in player_buttons:
+    grid1 = button_action(int(i), grid1)
+
+for i in range(1, 10):
     if button_action(i, grid1) == target:
         print(i)

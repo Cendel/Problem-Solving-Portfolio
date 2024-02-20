@@ -1,3 +1,5 @@
+# Question: https://www.codingame.com/training/easy/prefix-code
+
 data = {
     "011": "32",
     "0011": "33",

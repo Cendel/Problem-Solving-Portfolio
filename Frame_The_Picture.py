@@ -1,3 +1,7 @@
+# Question: https://www.codingame.com/ide/puzzle/frame-the-picture
+
+# Completed!
+
 frame = "Oo:"
 h, w = 3, 7
 picture = ["   _o  ", " _< \\_ ", "(_)>(_)"]

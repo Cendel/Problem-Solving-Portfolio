@@ -1,3 +1,7 @@
+# Question: https://www.codingame.com/ide/puzzle/you-are-the-father-maury-povich-style
+
+# Completed!
+
 mother = "Mother Louise:       &R %N ;; GE p2 *j 7U 5b 3y BY 6S gC NN 9R mJ TC d/ G< xv 3J w+ 3i Zw 4< C$ -F X% wB I2 Mi <B rU !# -; p6"
 child = 'Child Samantha:      MR %I ;h E6 Gp *f a7 75 :y eB 6= mC zN 9# md Cm Rd <3 xo ;3 hw X3 wK <J L$ -" %L Bd I# i$ vB Br #u C- +p'
 
