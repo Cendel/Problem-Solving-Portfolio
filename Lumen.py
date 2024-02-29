@@ -1,4 +1,4 @@
-# https://www.codingame.com/ide/puzzle/lumen
+# Question: https://www.codingame.com/ide/puzzle/lumen
 
 # Completed!
 
